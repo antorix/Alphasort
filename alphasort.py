@@ -1,5 +1,3 @@
-# This script sorts all strings in the file input.txt alphabetically
-# and puts them in the file output.txt.
 try:
     with open("input.txt", "r") as file: # open file
         list_new = sorted([line.rstrip() for line in file]) # sort
